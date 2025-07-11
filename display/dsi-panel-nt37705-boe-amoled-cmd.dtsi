@@ -305,12 +305,58 @@
 					39 00 00 40 00 00 02 6D 00
 				];
 
+				qcom,mdss-dsi-lp1-command = [
+					39 00 00 40 00 00 02 2F 02
+					39 00 00 40 00 00 06 F0 55 AA 52 08 03
+					39 00 00 40 00 00 02 6F 54
+					39 00 00 40 00 00 02 B3 80
+					39 00 00 40 00 00 02 6F 54
+					39 00 00 40 00 00 02 C4 81
+					39 00 00 40 00 00 01 39
+					39 00 00 40 44 00 01 2C
+
+					39 00 00 40 00 00 06 F0 55 AA 52 08 00
+					39 00 00 40 00 00 02 6F 08
+					39 00 00 40 00 00 05 BB 01 00 00 00
+					39 00 00 40 00 00 02 6F 0C
+					39 00 00 40 00 00 05 BB 01 00 00 00
+					39 00 00 40 00 00 02 6F 10
+					39 00 00 40 00 00 05 BB 01 00 00 00
+					39 00 00 40 00 00 02 6F 14
+					39 00 00 40 00 00 05 BB 01 00 00 00
+					39 00 00 40 00 00 02 6F 18
+					39 00 00 40 00 00 05 BB 01 02 02 00
+					39 00 00 40 00 00 02 6F 1C
+					39 00 00 40 00 00 03 BB 01 00
+					39 00 00 40 00 00 02 2F 30
+
+					39 00 00 40 00 00 02 6F 04
+					39 00 00 40 00 00 03 51 00 03
+				];
+
+				qcom,mdss-dsi-nolp-command = [
+					39 00 00 40 00 00 06 F0 55 AA 52 08 00
+					39 00 00 40 00 00 02 6F 0E
+					39 00 00 40 00 00 02 B5 32
+					39 00 00 40 00 00 01 38
+					39 00 00 40 00 00 01 2C
+					39 00 00 40 00 00 06 F0 55 AA 52 08 03
+					39 00 00 40 00 00 02 6F 54
+					39 00 00 40 00 00 02 B3 00
+					39 00 00 40 00 00 02 6F 54
+					39 00 00 40 00 00 02 C4 01
+					39 00 00 40 00 00 02 6F 54
+					39 00 00 40 00 00 02 2F 02
+				];
+
 				qcom,mdss-dsi-on-command-state = "dsi_lp_mode";
 				qcom,mdss-dsi-off-command-state = "dsi_hs_mode";
 				t2m,mdss-dsi-dbv-lower-bl1290-mode-command-state = "dsi_hs_mode";
 				t2m,mdss-dsi-dbv-higher-bl1290-mode-command-state = "dsi_hs_mode";
 				t2m,mdss-dsi-set-120hz-mode-command-state = "dsi_hs_mode";
 				qcom,mdss-dsi-timing-switch-command-state = "dsi_hs_mode";
+				qcom,mdss-dsi-lp1-command-state = "dsi_lp_mode";
+				qcom,mdss-dsi-nolp-command-state = "dsi_lp_mode";
 
 				qcom,mdss-dsi-h-sync-pulse = <0>;
 				qcom,compression-mode = "dsc";
@@ -574,12 +620,58 @@
 					39 00 00 40 00 00 02 6D 01
 				];
 
+				qcom,mdss-dsi-lp1-command = [
+					39 00 00 40 00 00 02 2F 02
+					39 00 00 40 00 00 06 F0 55 AA 52 08 03
+					39 00 00 40 00 00 02 6F 54
+					39 00 00 40 00 00 02 B3 80
+					39 00 00 40 00 00 02 6F 54
+					39 00 00 40 00 00 02 C4 81
+					39 00 00 40 00 00 01 39
+					39 00 00 40 44 00 01 2C
+
+					39 00 00 40 00 00 06 F0 55 AA 52 08 00
+					39 00 00 40 00 00 02 6F 08
+					39 00 00 40 00 00 05 BB 01 00 00 00
+					39 00 00 40 00 00 02 6F 0C
+					39 00 00 40 00 00 05 BB 01 00 00 00
+					39 00 00 40 00 00 02 6F 10
+					39 00 00 40 00 00 05 BB 01 00 00 00
+					39 00 00 40 00 00 02 6F 14
+					39 00 00 40 00 00 05 BB 01 00 00 00
+					39 00 00 40 00 00 02 6F 18
+					39 00 00 40 00 00 05 BB 01 02 02 00
+					39 00 00 40 00 00 02 6F 1C
+					39 00 00 40 00 00 03 BB 01 00
+					39 00 00 40 00 00 02 2F 30
+
+					39 00 00 40 00 00 02 6F 04
+					39 00 00 40 00 00 03 51 00 03
+				];
+
+				qcom,mdss-dsi-nolp-command = [
+					39 00 00 40 00 00 06 F0 55 AA 52 08 00
+					39 00 00 40 00 00 02 6F 0E
+					39 00 00 40 00 00 02 B5 32
+					39 00 00 40 00 00 01 38
+					39 00 00 40 00 00 01 2C
+					39 00 00 40 00 00 06 F0 55 AA 52 08 03
+					39 00 00 40 00 00 02 6F 54
+					39 00 00 40 00 00 02 B3 00
+					39 00 00 40 00 00 02 6F 54
+					39 00 00 40 00 00 02 C4 01
+					39 00 00 40 00 00 02 6F 54
+					39 00 00 40 00 00 02 2F 02
+				];
+
 				qcom,mdss-dsi-on-command-state = "dsi_lp_mode";
 				qcom,mdss-dsi-off-command-state = "dsi_hs_mode";
 				t2m,mdss-dsi-dbv-lower-bl1290-mode-command-state = "dsi_hs_mode";
 				t2m,mdss-dsi-dbv-higher-bl1290-mode-command-state = "dsi_hs_mode";
 				t2m,mdss-dsi-set-60hz-mode-command-state = "dsi_hs_mode";
 				qcom,mdss-dsi-timing-switch-command-state = "dsi_hs_mode";
+				qcom,mdss-dsi-lp1-command-state = "dsi_lp_mode";
+				qcom,mdss-dsi-nolp-command-state = "dsi_lp_mode";
 
 				qcom,mdss-dsi-h-sync-pulse = <0>;
 				qcom,compression-mode = "dsc";
@@ -819,12 +911,58 @@
 					39 00 00 40 00 00 02 2F 01
 				];
 
+				qcom,mdss-dsi-lp1-command = [
+					39 00 00 40 00 00 02 2F 01
+					39 00 00 40 00 00 06 F0 55 AA 52 08 03
+					39 00 00 40 00 00 02 6F 54
+					39 00 00 40 00 00 02 B3 80
+					39 00 00 40 00 00 02 6F 54
+					39 00 00 40 00 00 02 C4 81
+					39 00 00 40 00 00 01 39
+					39 00 00 40 44 00 01 2C
+
+					39 00 00 40 00 00 06 F0 55 AA 52 08 00
+					39 00 00 40 00 00 02 6F 08
+					39 00 00 40 00 00 05 BB 01 00 00 00
+					39 00 00 40 00 00 02 6F 0C
+					39 00 00 40 00 00 05 BB 01 00 00 00
+					39 00 00 40 00 00 02 6F 10
+					39 00 00 40 00 00 05 BB 01 00 00 00
+					39 00 00 40 00 00 02 6F 14
+					39 00 00 40 00 00 05 BB 01 00 00 00
+					39 00 00 40 00 00 02 6F 18
+					39 00 00 40 00 00 05 BB 01 02 02 00
+					39 00 00 40 00 00 02 6F 1C
+					39 00 00 40 00 00 03 BB 01 00
+					39 00 00 40 00 00 02 2F 30
+
+					39 00 00 40 00 00 02 6F 04
+					39 00 00 40 00 00 03 51 00 03
+				];
+
+				qcom,mdss-dsi-nolp-command = [
+					39 00 00 40 00 00 06 F0 55 AA 52 08 00
+					39 00 00 40 00 00 02 6F 0E
+					39 00 00 40 00 00 02 B5 32
+					39 00 00 40 00 00 01 38
+					39 00 00 40 00 00 01 2C
+					39 00 00 40 00 00 06 F0 55 AA 52 08 03
+					39 00 00 40 00 00 02 6F 54
+					39 00 00 40 00 00 02 B3 00
+					39 00 00 40 00 00 02 6F 54
+					39 00 00 40 00 00 02 C4 01
+					39 00 00 40 00 00 02 6F 54
+					39 00 00 40 00 00 02 2F 01
+				];
+
 				qcom,mdss-dsi-on-command-state = "dsi_lp_mode";
 				qcom,mdss-dsi-off-command-state = "dsi_hs_mode";
 				t2m,mdss-dsi-dbv-lower-bl1290-mode-command-state = "dsi_hs_mode";
 				t2m,mdss-dsi-dbv-higher-bl1290-mode-command-state = "dsi_hs_mode";
 				t2m,mdss-dsi-set-90hz-mode-command-state = "dsi_hs_mode";
 				qcom,mdss-dsi-timing-switch-command-state = "dsi_hs_mode";
+				qcom,mdss-dsi-lp1-command-state = "dsi_lp_mode";
+				qcom,mdss-dsi-nolp-command-state = "dsi_lp_mode";
 
 				qcom,mdss-dsi-h-sync-pulse = <0>;
 				qcom,compression-mode = "dsc";
@@ -1090,12 +1228,58 @@
 					39 00 00 40 00 00 02 6D 03
 				];
 
+				qcom,mdss-dsi-lp1-command = [
+					39 00 00 40 00 00 02 2F 02
+					39 00 00 40 00 00 06 F0 55 AA 52 08 03
+					39 00 00 40 00 00 02 6F 54
+					39 00 00 40 00 00 02 B3 80
+					39 00 00 40 00 00 02 6F 54
+					39 00 00 40 00 00 02 C4 81
+					39 00 00 40 00 00 01 39
+					39 00 00 40 44 00 01 2C
+
+					39 00 00 40 00 00 06 F0 55 AA 52 08 00
+					39 00 00 40 00 00 02 6F 08
+					39 00 00 40 00 00 05 BB 01 00 00 00
+					39 00 00 40 00 00 02 6F 0C
+					39 00 00 40 00 00 05 BB 01 00 00 00
+					39 00 00 40 00 00 02 6F 10
+					39 00 00 40 00 00 05 BB 01 00 00 00
+					39 00 00 40 00 00 02 6F 14
+					39 00 00 40 00 00 05 BB 01 00 00 00
+					39 00 00 40 00 00 02 6F 18
+					39 00 00 40 00 00 05 BB 01 02 02 00
+					39 00 00 40 00 00 02 6F 1C
+					39 00 00 40 00 00 03 BB 01 00
+					39 00 00 40 00 00 02 2F 30
+
+					39 00 00 40 00 00 02 6F 04
+					39 00 00 40 00 00 03 51 00 03
+				];
+
+				qcom,mdss-dsi-nolp-command = [
+					39 00 00 40 00 00 06 F0 55 AA 52 08 00
+					39 00 00 40 00 00 02 6F 0E
+					39 00 00 40 00 00 02 B5 32
+					39 00 00 40 00 00 01 38
+					39 00 00 40 00 00 01 2C
+					39 00 00 40 00 00 06 F0 55 AA 52 08 03
+					39 00 00 40 00 00 02 6F 54
+					39 00 00 40 00 00 02 B3 00
+					39 00 00 40 00 00 02 6F 54
+					39 00 00 40 00 00 02 C4 01
+					39 00 00 40 00 00 02 6F 54
+					39 00 00 40 00 00 02 2F 02
+				];
+
 				qcom,mdss-dsi-on-command-state = "dsi_lp_mode";
 				qcom,mdss-dsi-off-command-state = "dsi_hs_mode";
 				t2m,mdss-dsi-dbv-lower-bl1290-mode-command-state = "dsi_hs_mode";
 				t2m,mdss-dsi-dbv-higher-bl1290-mode-command-state = "dsi_hs_mode";
 				t2m,mdss-dsi-set-30hz-mode-command-state = "dsi_hs_mode";
 				qcom,mdss-dsi-timing-switch-command-state = "dsi_hs_mode";
+				qcom,mdss-dsi-lp1-command-state = "dsi_lp_mode";
+				qcom,mdss-dsi-nolp-command-state = "dsi_lp_mode";
 
 				qcom,mdss-dsi-h-sync-pulse = <0>;
 				qcom,compression-mode = "dsc";
@@ -1360,12 +1544,58 @@
 					39 00 00 40 00 00 02 6D 06
 				];
 
+				qcom,mdss-dsi-lp1-command = [
+					39 00 00 40 00 00 02 2F 02
+					39 00 00 40 00 00 06 F0 55 AA 52 08 03
+					39 00 00 40 00 00 02 6F 54
+					39 00 00 40 00 00 02 B3 80
+					39 00 00 40 00 00 02 6F 54
+					39 00 00 40 00 00 02 C4 81
+					39 00 00 40 00 00 01 39
+					39 00 00 40 44 00 01 2C
+
+					39 00 00 40 00 00 06 F0 55 AA 52 08 00
+					39 00 00 40 00 00 02 6F 08
+					39 00 00 40 00 00 05 BB 01 00 00 00
+					39 00 00 40 00 00 02 6F 0C
+					39 00 00 40 00 00 05 BB 01 00 00 00
+					39 00 00 40 00 00 02 6F 10
+					39 00 00 40 00 00 05 BB 01 00 00 00
+					39 00 00 40 00 00 02 6F 14
+					39 00 00 40 00 00 05 BB 01 00 00 00
+					39 00 00 40 00 00 02 6F 18
+					39 00 00 40 00 00 05 BB 01 02 02 00
+					39 00 00 40 00 00 02 6F 1C
+					39 00 00 40 00 00 03 BB 01 00
+					39 00 00 40 00 00 02 2F 30
+
+					39 00 00 40 00 00 02 6F 04
+					39 00 00 40 00 00 03 51 00 03
+				];
+
+				qcom,mdss-dsi-nolp-command = [
+					39 00 00 40 00 00 06 F0 55 AA 52 08 00
+					39 00 00 40 00 00 02 6F 0E
+					39 00 00 40 00 00 02 B5 32
+					39 00 00 40 00 00 01 38
+					39 00 00 40 00 00 01 2C
+					39 00 00 40 00 00 06 F0 55 AA 52 08 03
+					39 00 00 40 00 00 02 6F 54
+					39 00 00 40 00 00 02 B3 00
+					39 00 00 40 00 00 02 6F 54
+					39 00 00 40 00 00 02 C4 01
+					39 00 00 40 00 00 02 6F 54
+					39 00 00 40 00 00 02 2F 02
+				];
+
 				qcom,mdss-dsi-on-command-state = "dsi_lp_mode";
 				qcom,mdss-dsi-off-command-state = "dsi_hs_mode";
 				t2m,mdss-dsi-dbv-lower-bl1290-mode-command-state = "dsi_hs_mode";
 				t2m,mdss-dsi-dbv-higher-bl1290-mode-command-state = "dsi_hs_mode";
-				t2m,mdss-dsi-set-1hz-mode-command-state = "dsi_hs_mode";
+				t2m,mdss-dsi-set-10hz-mode-command-state = "dsi_hs_mode";
 				qcom,mdss-dsi-timing-switch-command-state = "dsi_hs_mode";
+				qcom,mdss-dsi-lp1-command-state = "dsi_lp_mode";
+				qcom,mdss-dsi-nolp-command-state = "dsi_lp_mode";
 
 				qcom,mdss-dsi-h-sync-pulse = <0>;
 				qcom,compression-mode = "dsc";
